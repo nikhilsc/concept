@@ -21,7 +21,7 @@ public class CallByValue {
 		
 		c1.disp();	//100
 		
-		c1.fun(c1.num);
+		c1.fun(c1.num);	// (passing 100)
 		
 		c1.disp(); //100
 		
