@@ -23,6 +23,8 @@ public class CallByValue {
 		
 		c1.fun(c1.num);	// (passing 100)
 		
+		System.out.println("After change");
+		
 		c1.disp(); //100
 		
 	}
